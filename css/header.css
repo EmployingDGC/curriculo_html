@@ -8,6 +8,6 @@ header .image {
 
 header .image img{
     width: 200px;
-    border-radius: 150px;
-    border: yellow solid 1px;
+    border-radius: 50%;
+    border: var(--border-color) solid 5px;
 }
