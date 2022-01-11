@@ -2,3 +2,6 @@ header {
     display: flex;
 }
 
+header .image {
+    border: 1px solid black;
+}
