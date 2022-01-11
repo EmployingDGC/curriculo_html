@@ -5,3 +5,9 @@ header {
 header .image {
     border: 1px solid black;
 }
+
+header .image img{
+    width: 200px;
+    border-radius: 150px;
+    border: yellow solid 1px;
+}
