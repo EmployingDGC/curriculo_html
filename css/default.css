@@ -3,5 +3,5 @@ body {
 }
 
 .container {
-    background-color: #5e5e5e;
+    background-color: var(--terciary-color);
 }
