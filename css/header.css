@@ -1,0 +1,39 @@
+header a:visited,
+header a:active {
+	color: var(--dark-white);
+}
+
+header .container {
+    color: var(--dark-white);
+    margin: 0 auto;
+    height: 150px;
+    width: min(100%, 1000px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0 20px 0;
+}
+
+header .container .top {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 800;
+}
+
+header .container .top .my-name {
+    display: flex;
+}
+
+header .container .top .my-name h2 {
+    margin-left: 5px;
+}
+
+header .container .bottom h1 {
+    margin-bottom: 20px;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+header .container .bottom a {
+    font-weight: 300;
+}

@@ -1,0 +1,33 @@
+footer .container {
+    margin: 0 auto;
+    width: min(100%, 1000px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+footer .container .top span {
+    width: 30px;
+    height: 30px;
+    background-color: var(--dark-grey);
+    border-radius: 50%;
+    padding: 5px;
+}
+
+footer .container .top span img {
+    width: 30px;
+}
+
+footer .container .top span:not(:first-child) {
+    margin-left: 5px;
+}
+
+footer .container .bottom {
+    margin-top: 15px;
+}
+
+footer .container .bottom .my-name {
+    color: var(--dark-white);
+}

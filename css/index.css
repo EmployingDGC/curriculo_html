@@ -1,0 +1,73 @@
+body {
+    background: linear-gradient(
+        180deg,
+        var(--dark-background) 0%,
+        var(--light-background) 50%,
+        var(--dark-background) 100%
+    );
+}
+
+main .container {
+    margin: 0 auto;
+    width: min(100%, 1000px);
+    display: flex;
+    justify-content: space-between;
+}
+
+main .container > * {
+    padding: 50px 35px;
+}
+
+main .container .left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+}
+
+main .container .left img {
+    width: 100%;
+    border-radius: 50%;
+    border: 7px solid var(--dark-grey);
+}
+
+main .container .right {
+    width: max(100%, 360px);
+}
+
+main .container .right .my-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .container .right .my-name h2 {
+    width: fit-content;
+    position: relative;
+    color: var(--dark-white);
+    font-size: 3rem;
+    margin-bottom: 40px;
+    font-weight: 800;
+}
+
+main .container .right p {
+    text-align: justify;
+    font-weight: 400;
+    color: var(--dark-white);
+}
+
+main .container .right p:not(:first-child) {
+    margin-top: 10px;
+}
+
+main .container .right .my-name h2::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    margin-left: -35%;
+    width: 70%;
+    height: 5px;
+    border-radius: 5px;
+    background-color: var(--dark-white);
+}
