@@ -7,6 +7,11 @@ body {
     );
 }
 
+main a:visited,
+main a:active {
+	color: var(--dark-white);
+}
+
 main .container {
     margin: 0 auto;
     width: min(100%, 1000px);
@@ -20,15 +25,27 @@ main .container > * {
 
 main .container .left {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 300px;
 }
 
-main .container .left img {
+main .container .left .perfil img {
     width: 100%;
     border-radius: 50%;
     border: 7px solid var(--dark-grey);
+    margin-bottom: 5px;
+}
+
+main .container .left .company a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .container .left .company a img {
+    height: 20px;
 }
 
 main .container .right {
