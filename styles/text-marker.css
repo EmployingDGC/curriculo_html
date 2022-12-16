@@ -1,0 +1,51 @@
+strong[color] {
+    --tam-1: 1px;
+    --tam-2: 1.1rem;
+
+    --pos-top: -4px;
+    --pos-left: -7px;
+
+    --pos-right: -7px;
+    --pos-bottom: -3px;
+
+    font-weight: 600;
+    position: relative;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+strong[color] .top,
+strong[color] .left,
+strong[color] .bottom,
+strong[color] .right {
+    z-index: -1;
+    position: absolute;
+    border: 1px solid;
+    width: var(--tam-1);
+    height: var(--tam-2);
+    border-radius: 2px;
+}
+
+strong[color] .top {
+    top: var(--pos-top);
+    left: var(--pos-left);
+    width: var(--tam-2);
+    height: var(--tam-1);
+}
+
+strong[color] .left {
+    top: var(--pos-top);
+    left: var(--pos-left);
+}
+
+strong[color] .bottom {
+    right: var(--pos-right);
+    bottom: var(--pos-bottom);
+    width: var(--tam-2);
+    height: var(--tam-1);
+}
+
+strong[color] .right {
+    right: var(--pos-right);
+    bottom: var(--pos-bottom);
+}
