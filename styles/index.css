@@ -71,6 +71,7 @@ main .container .right p {
     text-align: justify;
     font-weight: 400;
     color: var(--dark-white);
+    line-height: 1.6rem;
 }
 
 main .container .right p:not(:first-child) {
