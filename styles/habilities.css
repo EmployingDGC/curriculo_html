@@ -1,0 +1,29 @@
+section#habilities {
+    width: 100%;
+}
+
+section#habilities h2 {
+    text-align: center;
+}
+
+section#habilities h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+section#habilities h4 {
+    font-weight: 600;
+}
+
+section#habilities ol {
+    list-style: circle;
+    padding-left: 2rem;
+}
+
+section#habilities li {
+    padding-bottom: 1rem;
+}
+
+section#habilities li:nth-child(1) {
+    padding-top: 1rem;
+}
