@@ -1,0 +1,28 @@
+section#experiences > div {
+    padding-top: 1rem;
+}
+
+section#experiences > div p:nth-child(3) {
+    padding-top: 1rem;
+}
+
+section#experiences h2 {
+    text-align: center;
+}
+
+section#experiences h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+section#experiences ol {
+    list-style: circle;
+    padding-left: 2rem;
+}
+
+section#experiences h4 {
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    padding-bottom: 0.2rem;
+    font-weight: 600;
+}
